@@ -31,6 +31,7 @@ If you want to contact me, you can reach me at `jungboosung23@gmail.com`.
 ## Assets
 
 cards `https://www.reddit.com/r/homemadeTCGs/comments/18dxlgo/update_of_my_pixel_art_card_game/`
+
 3d-computer `https://sketchfab.com/3d-models/smol-ame-in-an-upcycled-terrarium-hololiveen-490cecc249d242188fda5ad3160a4b24`
 
 ## License
