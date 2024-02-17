@@ -20,13 +20,18 @@ To install My Portfolio, follow these steps:
 
 ## Running My Portfolio
 
-To run My Portfolio in development mode, use the following command: npm run dev
+To run My Portfolio in development mode, use the following command: `npm run dev`
 
 This will start the development server. You can then access the website at `http://localhost:xxxx`.
 
 ## Contact
 
 If you want to contact me, you can reach me at `jungboosung23@gmail.com`.
+
+## Assets
+
+cards `https://www.reddit.com/r/homemadeTCGs/comments/18dxlgo/update_of_my_pixel_art_card_game/`
+3d-computer `https://sketchfab.com/3d-models/smol-ame-in-an-upcycled-terrarium-hololiveen-490cecc249d242188fda5ad3160a4b24`
 
 ## License
 
