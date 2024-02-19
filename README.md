@@ -2,6 +2,9 @@
 
 This project is a personal portfolio website built with React and Vite.
 
+![image](https://github.com/boosungjung/Booey/assets/68157794/b5fb317b-bb17-487a-9849-92eebc6e08bf)
+
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
