@@ -20,7 +20,25 @@
   padding-bottom: 100px;
   display: block;
 }
+.svg-glow:hover {
+  filter: drop-shadow(0 0 10px #00f);
+}
+.glow-on-hover {
+  transition: box-shadow .5s ease;
+}
 
+.glow-on-hover:hover {
+  box-shadow: 0 0 5px #F25EBF, 0 0 10px #F25EBF, 0 0 15px #F25EBF, 0 0 20px #F25EBF;
+}
+
+.glow-on-hover-blue{
+  transition: box-shadow .5s ease;
+
+}
+.glow-on-hover-blue:hover{
+  box-shadow: 0 0 5px #56ccf2, 0 0 10px #56ccf2, 0 0 15px #56ccf2, 0 0 20px #56ccf2;
+
+}
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

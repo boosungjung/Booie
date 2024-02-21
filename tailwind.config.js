@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         primary: "#202023",
         secondary: "#a6bec3",
-        tertiary: "#151030",
+        tertiary: "#313134",
+        main: "#262626",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#EDEDED",
@@ -20,6 +21,14 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+      },
+      zIndex: {
+        "-1": "-1",
+      },
+      spacing: {
+        "1/2": "50%",
+        "3/4": "75%",
+        // Add other percentage values as needed
       },
     },
   },

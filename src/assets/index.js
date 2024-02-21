@@ -1,12 +1,19 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+// import backend from "./backend.png";
+// import creator from "./creator.png";
+// import mobile from "./mobile.png";
+import tutor from "../assets/tutor.jpeg";
+import freelance from "../assets/freelance.png";
+import monash from "../assets/monash.png";
 import web from "./cards/web_dev.png";
 import ios from "./cards/ios_dev.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+
+import github from "../assets/contacts/github.svg";
+import email from "../assets/contacts/email.svg";
+import instagram from "../assets/contacts/instagram.svg";
+import linkedin from "../assets/contacts/linkedin.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,12 +40,8 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
   web,
   ios,
-  github,
   menu,
   close,
   css,
@@ -61,4 +64,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  monash,
+  freelance,
+  tutor,
+  github,
+  email,
+  instagram,
+  linkedin,
 };

@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   ios,
   javascript,
@@ -24,6 +21,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  monash,
+  freelance,
+  tutor,
+  github,
+  email,
+  instagram,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "iOS Developer",
+    title: "iOS Development",
     icon: ios,
   },
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   // {
@@ -117,57 +121,60 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Teaching Associate",
+    company_name: "Monash University (Clayton, VIC)",
+    icon: monash,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Contributed in weekly meetings to discuss and enact improvements to the course.",
+      // "Achieved 9/10 teaching satisfaction score at end of semester review.",
+      // "Presented new and complex concepts clearly every week to class of 50+ students.",
+      // "Oversaw and taught in large units with 500+ students, consistently meeting marking deadlines and proactive in communicating.",
+      // "Conducted 20+ exam invigilations, ensuring academic integrity and adherence to regulations.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Freelance Backend Developer",
+    company_name: "LBank (South Korea, Seoul)",
+    icon: freelance,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Revitalised legacy code with poor documentation.",
+      // "Thoroughly debugged code and provided detailed explanations to reviewers.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Assembled customised functions utilising SHA256 encryption for each API.",
+      // "Completed a month-long project within a week, meeting all requirements and deadlines.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Highschool Tutor",
+    company_name: "Self-employed maths, physics, and chemistry tutor",
+    icon: tutor,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Assembled lesson plans tailored to each individual.",
+      // "Elevated multiple student grades from D to A.",
+      // "Guided a student to achieve 2nd place in their year for Chemistry.",
+      // "Conducted in exam review and created personalised assessments.",
+      // "Presented foreign concepts clearly to students visually using Adobe Illustrator.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -199,68 +206,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Flashcard App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "iOS App that allows users to search, create, and share flashcards, providing an enjoyable and free way of learning.",
     tags: [
       {
-        name: "react",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firestore",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SwiftUI",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/boosungjung/Quickstack",
   },
   {
-    name: "Job IT",
+    name: "Sorting Visualiser",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to visually see how sorting algorithms work.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML/CSS",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/boosungjung/Sorting-Visualizer",
   },
   {
-    name: "Trip Guide",
+    name: "Timetable Allocator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A python application to automatically allocate up to N number of people depending on constraints using network flow algorithm. Please request for code as it is confidential.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/boosungjung",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const contacts = [
+  // {
+  //   title: "Email",
+  //   value: "jungboosung23@gmail.com",
+  //   icon: email,
+  // },
+  {
+    title: "LinkedIn",
+    url: "https://linkedin.com/in/boosung-jung",
+    icon: linkedin,
+  },
+  {
+    title: "Github",
+    url: "https://github.com/boosungjung",
+    icon: github,
+  },
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/booosung/",
+    icon: instagram,
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  contacts,
+};

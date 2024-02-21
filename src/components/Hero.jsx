@@ -1,7 +1,28 @@
 import { motion } from "framer-motion";
+("use client");
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { TypeAnimation } from "react-type-animation";
+import { useEffect, useState } from "react";
+
 const Hero = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 800);
+  const handleResize = () => {
+    setIsLargeScreen(window.innerWidth > 800);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 330);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -13,16 +34,27 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[]">BooSung</span>
+            <TypeAnimation
+              sequence={["Hi, I'm BooSung", 100]}
+              wrapper="span"
+              speed={20}
+              // style={{ display: "inline-block" }}
+              repeat={false}
+            />
+            {/* Hi, I'm <span className="text-[]">BooSung</span> */}
           </h1>
-          <p className={`${styles.heroSubText} mt-5 text-white-100`}>
-            I am an aspiring Software Engineer&nbsp;
+          <p className={`${styles.heroSubText} mt-5 text-white-100 `}>
+            I am an aspiring{" "}
+            <span className="text-[#7ED9C8]">Software Engineer </span>
             {/* <br className="sm:block hidden" /> */}
             specialising in <span className="text-[#F25EBF]">Web </span>and{" "}
             <span className="text-[#F25EBF]">iOS</span> applications&nbsp;
           </p>
         </div>
       </div>
+      {isVisible && isLargeScreen && (
+        <div className="absolute z-[-1] top-1/2 md:top-3/4 left-1/2">hi</div>
+      )}
       <ComputersCanvas />
       {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
