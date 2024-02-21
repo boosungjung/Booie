@@ -40,7 +40,7 @@ const Navbar = () => {
                 to={link.id}
                 smooth={true}
                 duration={100}
-                offset={-20}
+                offset={link.id === "work" ? 270 : 100}
               >
                 {link.title}
               </ScrollLink>

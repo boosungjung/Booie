@@ -39,9 +39,9 @@ const About = () => {
     };
   }, []);
   return (
-    <div style={{ paddingTop: paddingTop }}>
+    <div style={{ paddingTop: paddingTop }} id="about">
       <>
-        <motion.div variants={textVariant()} id="about">
+        <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I do</p>
           <h2 className={styles.sectionHeadText}>
             <TypeAnimation

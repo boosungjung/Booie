@@ -65,11 +65,11 @@ const Experience = () => {
     };
   }, []);
   return (
-    <div style={{ paddingTop: paddingTop }}>
+    <div style={{ paddingTop: paddingTop }} id="work">
       {" "}
       {/* Add this line */}
       <>
-        <motion.div variants={textVariant()} id="work">
+        <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I have done so far</p>
           <h2 className={styles.sectionHeadText}>
             <TypeAnimation
